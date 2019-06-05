@@ -1,0 +1,13 @@
+npm install -D nodemon ---> live reload
+  em scripts do package.json "dev": "nodemon server.js"
+npm run dev -> executa o scritp
+
+docker run --name mongodb -p 27017:27017 -d mongo
+
+npm install mongoose -> ORM
+
+npm install require-dir -> faz require em todos os arq
+
+npm install mongoose-paginate
+
+npm install cors -> permite que acessem a api
